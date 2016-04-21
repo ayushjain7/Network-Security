@@ -81,7 +81,6 @@ class Ngram{
             }
         });
         for(Map.Entry<String, Integer> ngram : ngramsList){
-            System.out.println(ngram.getKey() + " " + ngram.getValue());
             out.write((ngram.getKey() + " " + ngram.getValue() + "\n").getBytes());
         }
     }

@@ -41,24 +41,25 @@ None of the Countermeasures dicussed by the authors are completely able to preve
 \begin{enumerate}
 \item Type-1: SSH/TLS/IPSec-Motivated Countermeasures
 \begin{enumerate}
-\item Session Random 255 padding: Performs badly against P classifiers but performance against LL and H increases at high universal size.
-\item Packet Random 255 padding: Performs better than session random in almost all scenarios. However, the performance trend against classifiers is similar
+\item Session Random 255 padding: Performs well against P classifiers but performance against LL and H decreases sharply at high universal size.
+\item Packet Random 255 padding: Performs better than session random in almost all scenarios. However, the performance trend against classifiers is similar.
 \end{enumerate}
 \item Type-2: Other Padding-based Countermeasures
 \begin{enumerate}
-\item Linear padding: Performs worst across all countermeasures.
-\item Exponential padding: A little better in performance than linear padding.
-\item Mice-Elephants padding: Performs very well against H classifiers at high universal sizes, but not against the other classifiers.
-\item Pad to MTU: Performs well against LL and H classifiers at high universal sizes, but not against P classifiers.
+\item Linear padding: Performs best across all countermeasures.
+\item Exponential padding: A little worse in performance than linear padding.
+\item Mice-Elephants padding: Performs very badly against H classifiers at high universal sizes.
+\item Pad to MTU: Performs badly against LL and H classifiers at high universal sizes, but not against P classifiers. Common intuition about the Pad to MTU countermeasure is that it ought to work well against TA attacks since it ensures that no individual packet length information is
+leaked. However, as we seen in the second row of Figure 6, we see this intuition is wrong in large part because the number of packets is still leaked.
 \item Packet Random MTU padding: Similar to Pad to MTU.
 \end{enumerate}
 \item Type-3: Distribution-based Countermeasures
 \begin{enumerate}
-\item Direct target sampling: Performs well against LL and H but not against P classifiers.
+\item Direct target sampling: Performs badly against LL and H but not against P classifiers.
 \item Traffic morphing: Similar to Direct target sampling.
 \end{enumerate}
 \end{enumerate}
-In general, Type-1 and Type-2 in general obfuscate bandwidth usage. They do, but these per-packet paddings only add noise to the low order bits of total bandwidth. Specifically, the change to bandwidth usage is too small relative to what would be needed to make two websites’ bandwidths likely to overlap significantly and hence they perform poorly with Bandwidth based classifiers. Type-3 countermeasures perform better against Bandwidth based classifiers.
+In general, Type-1 and Type-2 are expected to obfuscate bandwidth usage. They do, but these per-packet paddings only add noise to the low order bits of total bandwidth. Specifically, the change to bandwidth usage is too small relative to what would be needed to make two websites’ bandwidths to overlap significantly and hence they perform poorly with Bandwidth based classifiers. Type-3 countermeasures perform better against Bandwidth based classifiers.
 \section{Problem 4}
 \textbf{a.} TCP\\\\
 \textbf{b.} arrival time, packet size, direction\\\\

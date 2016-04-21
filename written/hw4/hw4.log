@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.19)  20 APR 2016 16:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.19)  20 APR 2016 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,22 +337,22 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--67
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
@@ -379,7 +379,7 @@ cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on hw4.pdf (4 pages, 69855 bytes).
+Output written on hw4.pdf (4 pages, 70368 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream
