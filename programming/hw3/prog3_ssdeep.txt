@@ -1,2 +1,0 @@
-ssdeep,1.1--blocksize:hash:hash,filename
-768:tENvA/GCOFa1RDyfbPcALcPVgOo/dWPeGnmJa7z9oShISn30KYMSwWLm:tk1bhXv/dWP5nmU7as30KCwWS,"/home/ayush/school/NS/assignments/programming/hw3/prog3"
